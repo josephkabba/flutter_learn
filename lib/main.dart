@@ -107,6 +107,7 @@ class _RandomWordsState extends State<RandomWords> {
     return ListTile(
       title: Text(
         pair.asPascalCase,
+        
         style: _biggerFont,
       ),
       trailing: Icon(alreadySaved ? Icons.favorite: Icons.favorite_border,
